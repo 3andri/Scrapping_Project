@@ -1,0 +1,6 @@
+#FileLock
+#Thu Oct 21 18:54:28 ICT 2021
+hostName=andriscreen
+id=17ca2b3d7fc4ef8f3ba16d625b6ce2eddcf3dede319
+method=file
+server=172.23.16.1\:62220

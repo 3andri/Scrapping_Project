@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+	<div style="margin-left: 300px; margin-top: 50px;">
+		<div style="" th:each="rumah : ${rumah}">
+			Rp.<span th:text="${#numbers.formatCurrency(rumah.btn_harga)}"></span>
+			-> <span th:text="${rumah.btn_lokasi}"></span><br /> <a
+				target="_blank" th:href="${rumah.btn_url}">Link</a><br /> <br />
+		</div>
+	</div>
+</body>
+</html>
